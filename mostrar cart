@@ -1,0 +1,7 @@
+<script>
+        jQuery(document).ready(function($){
+            $('#minicart-but').addClass('elementor-menu-cart--shown');
+            $('.elementor-menu-cart__container').attr('aria-hidden', 'false');
+            $('.elementor-menu-cart__main').attr('aria-hidden', 'false');
+        });
+    </script>
